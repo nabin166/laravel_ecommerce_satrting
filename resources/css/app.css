@@ -1,0 +1,132 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer components {
+
+
+    .logo {
+        @apply mt-3 text-neutral-500
+    }
+
+    .logo:hover {
+        @apply translate-x-1
+    }
+
+    .search {
+
+        @apply rounded-[20px] mt-1.5 ml-[20%]
+    }
+
+
+    /* Top bar */
+
+    .div {
+        @apply flex-1
+    }
+
+    .div:hover {
+        @apply text-stone-500
+    }
+
+    /* product-dropdown */
+
+    .product-dropdown {
+        @apply hidden transition-transform bg-gray-500 h-[200px]
+    }
+
+    /*  item-search-bar */
+    .item-search-bar {
+        @apply flex-1 right-0 justify-center
+    }
+
+    /* flashsale-dev */
+    /* .flashsale-dev {
+        @apply 
+    } */
+
+    .flashsale-1-dev {
+        @apply w-[200px]  h-[17rem] rounded-t-[20px] bg-stone-400 mt-2
+    }
+    .flashsale-1-dev:hover {
+        @apply w-[200px] shadow-[0.2px_0.2px_9px] h-[17rem] rounded-t-[20px] bg-stone-400 mt-2 cursor-pointer
+    }
+
+    .flashsale-2-dev {
+        @apply text-center flex flex-col space-y-2
+    }
+
+    .flashsale-3-dev {
+        @apply bg-stone-300 h-[10rem] bg-cover rounded-t-[20px]
+    }
+
+    /* flashsale-btn */
+    .flashsale-btn {
+        @apply px-2 py-1 rounded-lg text-neutral-400 bg-blue-900 hover:bg-blue-700
+    }
+
+
+    /* offer-sale */
+    .offer-sale{
+        @apply text-neutral-700 text-[30px] 
+    }
+
+    /* categories */
+   /* .categ{
+       @apply 
+   } */
+
+   
+
+
+    .li .div:active {
+        @apply bg-gray-900
+    }
+
+
+    .cart-hover:hover {
+        @apply translate-x-1
+    }
+
+    .topbar-ul {
+        @apply flex flex-row text-center mx-[1px] text-sm sm:mx-[20%]
+    }
+
+
+  /* admin panel */
+    .icon{
+        @apply ml-1 relative top-[40%]
+    }
+    .icon:hover{
+
+        @apply w-[42px] opacity-70
+
+    }
+ 
+
+    .ico{
+        @apply  relative w-[42px]  opacity-70 ml-1 top-[40%] 
+    
+    }
+    .rot{
+        @apply  ml-1 relative top-[40%]
+    }
+    .rot:hover{
+        @apply animate-pulse  delay-1000
+    }
+
+    .activity{
+        @apply bg-zinc-400
+
+    }
+
+    .input{
+        @apply w-[1/3]
+    }
+ 
+   
+ 
+   
+
+}
